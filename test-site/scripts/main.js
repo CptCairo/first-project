@@ -5,9 +5,9 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
 	let mySrc = myImage.getAttribute('src');
 	if(mySrc === 'images/my-test-image-2.jpg') {
-		myImage.setAttribute('src', 'images/my-test-image.jpg');
+		myImage.setAttribute('src', 'tet-site/images/my-test-image.jpg');
 	} else {
-		myImage.setAttribute('src', 'images/my-test-image-2.jpg');
+		myImage.setAttribute('src', 'test-site/images/my-test-image-2.jpg');
 	}
 }
 
